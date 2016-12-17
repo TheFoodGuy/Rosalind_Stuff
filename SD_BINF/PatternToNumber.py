@@ -3,12 +3,15 @@
 # base_index * 4 (the amount of bases to selected) ^ (length of the pattern) + ...
 def main():
    print PatternToNumber('ATGCAA')
+
 def PatternToNumber(Pattern):
-    total = 0 
+    if Pattern == '':
+        return 0 
     nucleotide_to_number = {'A':0, 'C':1, 'G':2, 'T':3}
-    for i in range(len(Pattern)):
-        total = total * 4 + nucleotide_to_number[Pattern[i]]
-    return total
+    last_value = Pattern[-1]
+    rem_pat = Pattern[:len(Pattern)-1] #ATGCA | A 
+    return 4 * PatternToNumber(rem_pat) + nucleotide_to_number[last_value]
+
 if __name__ == "__main__":
     main()
 
