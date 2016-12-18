@@ -2,7 +2,7 @@
 #From my understanding, you line everything in alphabetically ordered for the four bases 
 # base_index * 4 (the amount of bases to selected) ^ (length of the pattern) + ...
 def main():
-   print PatternToNumber('ATGCAA')
+   print PatternToNumber('CCGTACCCACAGCGGCC')
 
 def PatternToNumber(Pattern):
     if Pattern == '':

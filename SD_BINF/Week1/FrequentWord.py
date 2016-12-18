@@ -1,6 +1,6 @@
 #2 - checking for how frequent a particular pattern appears in a string 
-genome_string = 'CGGACTCGACAGATGTGAAGAACGACAATGTGAAGACTCGACACGACAGAGTGAAGAGAAGAGGAAACATTGTAA'
-genome_pattern = 5
+genome_string = 'CGCCTAAATAGCCTCGCGGAGCCTTATGTCATACTCGTCCT'
+genome_pattern = 3
 #genome_pattern is
 def FrequentWords(text, k) : 
     #text - > genome_string 

@@ -2,7 +2,7 @@
 #a recursion problem
 def main():
     #nucleotide_to_number = {'A':0, 'C':1, 'G':2, 'T':3}
-    print NumberToPattern(5437,7)
+    print NumberToPattern(5293,8)
 
 
 def NumberToPattern(num_position, seq_length):
