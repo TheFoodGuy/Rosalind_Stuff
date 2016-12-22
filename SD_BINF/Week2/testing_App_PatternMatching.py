@@ -16,7 +16,7 @@ def approximate_pattern_matching_problem(pattern, genome, d):
             pos = pos + [i]
     return pos
     
-string =  "".join(open("testingFille.txt")).split()
+string =  "".join(open("dataset_9_4.txt")).split()
 f = open('appPat_ans.txt', 'w')
 a = approximate_pattern_matching_problem(string[0], string[1], int(string[2]))
 f.write(" ".join(str(e) for e in a))

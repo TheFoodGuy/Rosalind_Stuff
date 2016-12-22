@@ -1,8 +1,8 @@
 #3 Approximate Pattern Matching Problem - find the number of patterns 
 # that closely match to the reference pattern in the sting 
 def main():
-    with open('testingFille.txt', 'r') as read_file:
-    #with open('/home/david/Downloads/dataset', 'r') as read_file: 
+    #with open('testingFille.txt', 'r') as read_file:
+    with open('/home/david/Downloads/dataset_9_4.txt', 'r') as read_file: 
         read_input = read_file.read().split("\n")
     #print read_input[0]
     #print read_input[2] 
