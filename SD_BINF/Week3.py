@@ -1,0 +1,1 @@
+#start this by the monday or so gotta finish up to week 4 by the time school starts 

@@ -1,0 +1,19 @@
+#testing area to make sure everything is up to date 
+from Week2 import frequent_mistmatches
+def main():
+    file_name = raw_input('what is the name of the file\n')
+    file_name = '/home/david/Downloads/' + file_name
+    with open(file_name) as in_file:
+        read_input = in_file.read().split()
+        # print read_input[0] 
+        # print read_input[1]
+        # print read_input[2]
+
+    a = frequent_mistmatches(read_input[0], int(read_input[1]), int(read_input[2]))
+    a = list(a)
+    f.write(' '.join(a)) 
+
+if __name__ == "__main__":
+    f = open('ans.txt', 'w')
+    main()
+    f.close()
