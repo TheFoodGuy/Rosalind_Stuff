@@ -143,9 +143,3 @@ def other_nucleotide(symbol):
         if i == symbol : continue
         cur_nuc += i 
     return cur_nuc
-
-print HammingDistance('CAGAAAGGAAGGTCCCCATACACCGACGCACCAGTTTA','CACGCCGTATGCATAAACGAGCCGCACGAACCAGAGAG')
-print 'above is HammingDistance'
-print shewSearch('GATACACTTCCCGAGTAGGTACTG')
-print 'above is shewSearch'
-print 
